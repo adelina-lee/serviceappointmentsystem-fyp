@@ -30,7 +30,7 @@ import datetime
 
 # Home
 def home_view(request):  # Homepage
-    return render(request, 'appointments/home/home.html')
+    return render(request, 'appointments/home/index.html')
 
 
 # Account

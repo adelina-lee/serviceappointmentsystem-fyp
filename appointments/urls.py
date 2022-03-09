@@ -5,7 +5,7 @@ from appointments import views
 
 urlpatterns = [
     path('', views.home_view, name=''),
-    path('home/', views.home_view, name='home.html'),
+    path('home/', views.home_view, name='index.html'),
 
     # Account
     path('login/', views.login_view, name='login.html'),
