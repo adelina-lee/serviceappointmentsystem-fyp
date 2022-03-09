@@ -19,4 +19,4 @@ mainly using Python's Django web framework and PostgreSQL database.
 🔸Should you use my programming codes, do credit me or let me know! Sharing is caring. :)
 
 ## 🎥 Demonstration
-🔹YouTube Link: https://youtu.be/HTHqEr3R_Kw
+🔹YouTube link: https://youtu.be/HTHqEr3R_Kw
