@@ -17,3 +17,6 @@ mainly using Python's Django web framework and PostgreSQL database.
 🔸This is a project developed by myself as a student, therefore, it may not be suitable for official usage and deployment.
 
 🔸Should you use my programming codes, do credit me or let me know! Sharing is caring. :)
+
+## 🎥 Demonstration
+🔹YouTube Link: https://youtu.be/HTHqEr3R_Kw
