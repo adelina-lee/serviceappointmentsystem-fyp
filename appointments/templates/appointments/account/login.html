@@ -1,0 +1,90 @@
+{% extends 'appointments/account/base.html' %}
+{% load static %}
+{% block content %}
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block page-title %}Trisome | Login{% endblock %}</title>
+    </head>
+
+    <style>
+        .album img {
+            margin-top: -100px;
+            margin-left: 80px;
+            height: 200px;
+            width: 200px;
+        }
+
+        .card-body {
+            text-align: center;
+            margin: 10px;
+        }
+
+        #divider-space-100 {
+            margin: 100px;
+        }
+    </style>
+    <body class="bg-gradient-primary">>
+
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="text-light">Select User Type to Login/Sign Up</h1>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'assets/img/icons/admin.png' %}" alt="Admin"
+                                 class="bd-placeholder-img rounded-circle">
+                            <div class="card-body">
+                                <a href="{% url 'login_adm.html' %}">
+                                    <button type="button" class="btn btn-primary">Login/Sign Up as Admin</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'assets/img/icons/customer.png' %}" alt="Customer"
+                                 class="bd-placeholder-img rounded-circle">
+                            <div class="card-body">
+                                <a href="{% url 'login_cust.html' %}">
+                                    <button type="button" class="btn btn-primary">Login/Sign Up as Customer</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="{% static 'assets/img/icons/engineer.png' %}" alt="Engineer"
+                                 class="bd-placeholder-img rounded-circle">
+                            <div class="card-body">
+                                <a href="{% url 'login_eng.html' %}">
+                                    <button type="button" class="btn btn-primary">Login/Sign Up as Engineer</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    </body>
+    </html>
+
+{% endblock %}
