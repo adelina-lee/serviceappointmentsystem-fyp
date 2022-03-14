@@ -13,6 +13,14 @@ mainly using Python's Django web framework and PostgreSQL database.
 
 🔹IDE: PyCharm 2021.1.2
 
+## 🖥️ Preview
+
+![CoverPic](https://user-images.githubusercontent.com/69882714/158133562-e66d64db-a136-40ab-a451-dd4f87836843.png)
+
+![Appointment Features](https://user-images.githubusercontent.com/69882714/158133629-b0984b29-536f-4e43-84eb-d25976df8ad4.png)
+
+![Appointment Notification](https://user-images.githubusercontent.com/69882714/158133641-c877be99-fccd-46f0-9fb5-829dbd777473.png)
+
 ## ⚠️ Disclaimer
 🔸This is a project developed by myself as a student, therefore, it may not be suitable for official usage and deployment.
 
