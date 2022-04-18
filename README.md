@@ -1,6 +1,5 @@
 # 📅 Service Appointment System
-This is a service appointment system for booking or reservation or appointments, developed for my final year project (FYP) as a student in university, 
-mainly using Python's Django web framework and PostgreSQL database.
+This is a service appointment system website for booking or reservation or appointments, developed for my final year project (FYP) as a student in university, mainly using Python's Django web framework and PostgreSQL database.
 
 ## 📝 Details
 🔹Purpose: To develop an appointment booking system for Trisome
